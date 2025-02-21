@@ -72,55 +72,9 @@ This design ensures that the UI, processing, and content generation components i
 
 ---
 
-## Installation
-
-### Prerequisites
-
-- Python 3.8 or above
-- pip (Python package installer)
-- A virtual environment tool (optional but recommended)
-
-### Setup Steps
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/bloggen-ai.git
-   cd bloggen-ai
-   ```
-
-2. **Create and Activate a Virtual Environment:**
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install Dependencies:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   The `requirements.txt` file includes packages such as:
-   - Streamlit
-   - LangChain
-   - Requests
-   - Additional libraries for handling API calls and data processing
-
----
-
-## Usage
-
-1. **Run the Application:**
-
-   ```bash
-   streamlit run app.py
-   ```
-
 2. **Access the Application:**
 
-   Open your web browser and navigate to `http://localhost:8501`. Fill in the form with your desired blog topic, tone, target audience, word count, and other settings, then submit to generate your blog post.
+   Click the generated url by ngrok for `http://localhost:8501` in the colab notebook. Fill in the form with your desired blog topic, tone, target audience, word count, and other settings, then submit to generate your blog post.
 
 3. **Interacting with the UI:**
 
@@ -130,26 +84,6 @@ This design ensures that the UI, processing, and content generation components i
      The backend processes the input via the Huggingface endpoint, enriches content with integrated web search, and outputs a formatted blog post.
    - **Post-Generation Options:**  
      Review, edit, or download the generated content directly from the interface.
-
----
-
-## Configuration
-
-Create a configuration file (e.g., `.env`) in the root directory to manage API keys and other environment-specific settings:
-
-```
-# Huggingface API credentials
-HUGGINGFACE_API_KEY=your_huggingface_api_key
-
-# LangChain configuration
-LANGCHAIN_CONFIG=your_langchain_configuration
-
-# Web Search API keys (if applicable)
-DUCKDUCKGO_API_KEY=your_duckduckgo_api_key  # if required
-TAVILY_API_KEY=your_tavily_api_key
-```
-
-Ensure you load these environment variables in your application startup script.
 
 ---
 
@@ -189,19 +123,6 @@ Ensure you load these environment variables in your application startup script.
 
 ---
 
-## Deployment
-
-### Hosting
-
-The application is deployed on a scalable cloud platform (e.g., AWS, Heroku). For a live demo, visit:
-
-[http://bloggenai-demo.example.com](http://bloggenai-demo.example.com)
-
-### CI/CD Pipeline
-
-A continuous integration and deployment pipeline is in place to ensure regular updates and prompt bug fixes.
-
----
 
 ## Contributing
 
