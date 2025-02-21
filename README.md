@@ -1,8 +1,8 @@
 # BlogGenAI
 
 ![image](https://github.com/user-attachments/assets/68f38d60-3708-4627-aa85-095c3e117b9c)
+[Watch the video](https://drive.google.com/file/d/1aiCV4kAi2Wjcau-zspMS-vgkJ5mi3h8l/view)
 
-<video src="[https://raw.githubusercontent.com/your-username/your-repo/main/video.mp4](https://github.com/Neeraj4002/BlogGenAI/blob/main/BlogAI.mp4)" controls width="500"></video>
 
 
 
