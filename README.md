@@ -2,6 +2,9 @@
 
 ![image](https://github.com/user-attachments/assets/68f38d60-3708-4627-aa85-095c3e117b9c)
 
+<video src="[https://raw.githubusercontent.com/your-username/your-repo/main/video.mp4](https://github.com/Neeraj4002/BlogGenAI/blob/main/BlogAI.mp4)" controls width="500"></video>
+
+
 
 # Introduction
 BlogGen AI is a web-based application that leverages advanced NLP through LLaMA 2 and the Huggingface endpoint (via LangChain) to generate high-quality blog posts. With a user-friendly Streamlit interface, users can input a topic, select tone, target audience, word count, and style preferences to generate a fully formatted blog post complete with an estimated read time. Additionally, the application integrates web search functionalities—initially via DuckDuckGo and later upgraded to the Tavily Search API—to enrich content with dynamic, contextually relevant information.
