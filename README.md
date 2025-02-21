@@ -1,7 +1,6 @@
-# BlogGenAI-
+# BlogGenAI
 
-# BlogGen AI
-
+# Introduction
 BlogGen AI is a web-based application that leverages advanced NLP through LLaMA 2 and the Huggingface endpoint (via LangChain) to generate high-quality blog posts. With a user-friendly Streamlit interface, users can input a topic, select tone, target audience, word count, and style preferences to generate a fully formatted blog post complete with an estimated read time. Additionally, the application integrates web search functionalities—initially via DuckDuckGo and later upgraded to the Tavily Search API—to enrich content with dynamic, contextually relevant information.
 
 ---
@@ -10,11 +9,8 @@ BlogGen AI is a web-based application that leverages advanced NLP through LLaMA 
 
 - [Features](#features)
 - [Architecture](#architecture)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
 - [Testing](#testing)
-- [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
 
